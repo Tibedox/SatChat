@@ -63,6 +63,7 @@ public class ChatActivity extends AppCompatActivity {
     public void sendMessage(View view) {
         if(editText.getText().toString().isEmpty()) return;
         sendToInternetDB(editText.getText().toString());
+        editText.setText("");
     }
 
     public void loadFromInternetDB(){
