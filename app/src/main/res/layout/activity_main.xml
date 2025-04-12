@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
     tools:context=".MainActivity">
 
     <TextView
@@ -33,7 +33,6 @@
         android:hint="имя"
         android:importantForAutofill="no"
         android:inputType="text"
-        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="startChat"
-        android:text="Начать"
+        android:text="Далее"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
